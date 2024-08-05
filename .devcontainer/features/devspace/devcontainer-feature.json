@@ -1,7 +1,7 @@
 {
-    "name": "Tilt",
-    "id": "tilt",
+    "name": "Devspace",
+    "id": "devspace",
     "version": "1.0.0",
-    "description": "A Tilt feature",
+    "description": "A Devspace feature",
     "options": {}
 }

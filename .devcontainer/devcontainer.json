@@ -12,17 +12,17 @@
 		"ghcr.io/devcontainers/features/docker-outside-of-docker:1": {},
 		"ghcr.io/devcontainers/features/kubectl-helm-minikube:1": {
 			"minikube": "none"
-		},
+		},		
+		"./features/devspace": {}
 		// "ghcr.io/rio/features/k9s:1": {},
 		// "ghcr.io/audacioustux/devcontainers/devspace:1": {}
-		"./features/devspace": {}
 	},
 	"overrideFeatureInstallOrder": [
 		"ghcr.io/devcontainers/features/docker-outside-of-docker",
 		"ghcr.io/devcontainers/features/kubectl-helm-minikube",
+		"./features/devspace"
 		// "ghcr.io/rio/features/k9s",
 		// "ghcr.io/audacioustux/devcontainers/devspace"
-		"./features/devspace"
 	],
 	"mounts": [
 		{
@@ -50,6 +50,6 @@
 				"ms-kubernetes-tools.vscode-kubernetes-tools"
 			]
 		}
-	},
+	}
 	// "remoteUser": "node"
 }
